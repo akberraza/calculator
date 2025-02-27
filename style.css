@@ -21,7 +21,7 @@ input{
     border: none;
     outline: none;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 button{
@@ -30,6 +30,12 @@ button{
     font-size: 1rem;
     height: 50px;
     width: 50px;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.60s;
 }
 
 .click{
